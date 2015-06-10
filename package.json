@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/vergenzt/rtm-repofy",
   "dependencies": {
+    "body-parser": "^1.12.4",
     "express": "^4.12.4",
     "github": "^0.2.4",
     "rtm-js": "git+https://github.com/vergenzt/rtm-js.git"
