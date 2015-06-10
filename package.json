@@ -1,0 +1,28 @@
+{
+  "name": "rtm-repofy",
+  "version": "0.0.1",
+  "description": "App to track Remember the Milk smart list changes in a Github repo.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vergenzt/rtm-repofy.git"
+  },
+  "author": "Tim Vergenz <vergenzt@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vergenzt/rtm-repofy/issues"
+  },
+  "homepage": "https://github.com/vergenzt/rtm-repofy",
+  "dependencies": {
+    "express": "^4.12.4",
+    "github": "^0.2.4",
+    "rtm-js": "git+https://github.com/vergenzt/rtm-js.git"
+  },
+  "devDependencies": {
+    "async": "^1.2.1",
+    "prompt": "^0.2.14"
+  }
+}
